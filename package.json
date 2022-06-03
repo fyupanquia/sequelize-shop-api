@@ -1,0 +1,22 @@
+{
+  "name": "number8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "migrate": "node ./setup/migration.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fyupanquia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-asyncify": "^1.0.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
